@@ -1,0 +1,31 @@
+What is difference between stream and collections.
+What is difference between AOP and OOPS.
+How do you swap two numbers without third.
+What is difference between String str1 = "abcd"; and String str1 = new String("abcd");
+
+What is output --  Is finally called all the time.
+try{
+
+}catch(e}
+{
+
+}
+finally{
+
+}
+
+
+What is the output -- 
+
+int a[] = {1,2,3}
+
+List l = Arrays.asList(a);
+l.add(4)
+
+what is the content of array a.
+
+
+
+What is difference sleep and wait.
+
+what is clutch and counter in Threads.
