@@ -1,0 +1,133 @@
+Account — Resource
+
+Method — POST
+
+URI : /Account/{accountNumber}/Transaction
+
+Request Body
+{
+	“amount” : 10000,
+	“operation” : Deposit,
+	“state”: “new” //success,failure
+}
+
+——>. Msg —> Listener —> call debit/credit
+
+—> 
+——————————————————
+
+
+Debit/ Credit  — > Balance in the account 
+
+
+———————————————————
+
+Node head = anyNode. 
+Traverse our linked list list 
+If (head)
+Sysout(“Yes”);
+
+——————————————————
+
+1->2->3 
+       \     |
+         \   |
+           6
+
+List<Node> nodes = LinkedList<Node>();
+Set<Node> traversed = new HashSet<>();
+Iterate thru Nodes
+Traversed.put(node)
+if(traversed.containes(node.next))
+	Sysout(“YES”);
+
+
+
+-------------------------------------------------------------------------
+
+Snake ladder N*N 
+
+
+a[100]
+10*10 
+[
+ 0 1 2 3 4 5 6 
+ 
+		55
+
+ 97 98 99
+]
+
+doublyLinkedList
+
+————————————————————
+
+Music Playlist — 
+		createPlayList(List<Song> songs)
+		add (Song s)
+		remove (Song s)
+		deletePlayList(String playList id)
+		reshuffle(playListId)
+		moveUp(Song s)
+		moveDown(Song s)
+		update(playListId, List<Song> songs)
+
+HashMap(playListId,LinkedList<Songs> Songs)
+
+Song0 <—> Song1 <—> Song2 <—> Song3 <—> Song4 <—> Song5 
+
+——————————————————————————
+
+
+
+List<List<String>> bucketAnagrams(List<String> words);
+   Input:  {"now", "god", "something", "won", "onw", "dog", "no"}
+   Output: { {"now", "won", “onw”}, {"god", "dog"}, {"something"}, {"no"}}
+
+for(int I=0;i<s.length;i++)
+{
+	List<String> s = new ArrayList<>();
+	s.add(s[I]);
+	for(j=I+1;j<s.lenth;j++)
+		{
+			if(s[I].length == s[j].length)
+				if(checkcharacters(s[I],[s[j]))
+
+					s.add[j]; // remove that String from the array
+		}
+}
+
+checkCharacters(String s,String s2)
+{
+	//Check the characters in both if same return true else false.
+	count down characters — 
+
+}
+
+——————————————————————————————
+
+try { Thread.sleep(10); } catch (InterruptedException e) { }
+
+—————————————————————————
+SOLID
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
