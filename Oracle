@@ -112,6 +112,103 @@ try { Thread.sleep(10); } catch (InterruptedException e) { }
 SOLID
 
 
+BinarySearch
+
+Public int binarySearch(int []arr, int element)
+{
+	int len = arr.length;
+	int pos = -1;
+	for(int i=0; I<len;i++)
+	{
+		mid = arr.length/2;
+
+		if(element > arr[mid])
+			i = mid+1;
+		else if (element < arr[mid])
+			len = mid;
+		
+		else if (element == arr[mid]
+			pos = mid;
+	} 
+	
+	return pos	
+
+}		
+
+
+++ , —, << , >>,& , |
+
+Unsigned int x ; //4 bytes
+Public int countOfones (int x)
+{
+	int number = 0;
+	// do or operation on with zero then whenever result is true then it’s one otherwise its zero
+
+	int bit = >>x;
+
+	return count;	
+}
+
+—————————————————————————————————————
+‘AAAAAAABBBBBBB’. ‘AB’
+[A,A]
+[A,A]  [A,B]
+
+[A,B] [A,B]
+Public int substring (String s1, String s2)
+{
+	Character [] ch = s2.toCharArray ();
+	Character [] ch2 = s1.toCharArray ();
+	for(int i=0;i<ch2.length;i++)
+	{
+	  if(Arrays.equals(ch,subStringString(int point, int 2));)
+			return point;
+	}
+
+
+
+}
+
+Public String subStringString(int point, int length)
+{
+ Character [] ch = s1.toCharArray ();
+ for(int I=point;I<chlenght;point++)
+	newch[I] = ch[I];
+Return newch;
+}
+
+
+——————————————————————————————————————
+List<Integer> l = new LinkedList<Integer>();
+
+
+1->2->3->4->5->null
+
+5->4->3->2->1->null
+
+Cur = l;
+While(l.next()!=null)
+{
+	cur = l;
+	cur.next = l.next();	
+}
+
+———————————————————————————————————————
+
+Int pplcount. = 1000;
+
+Int vaccinationfreq = 4;
+
+Age  — <10 and >60 
+
+Person {
+	AdharId;
+	Age;
+	vaccinCount;
+	lastVaccinatedDate;
+}
+
+
 
 
 
