@@ -209,6 +209,92 @@ Person {
 }
 
 
+————————————————————————————————————
+
+Mirror a tree
+
+
+    5
+   /.  \
+2.    3
+/.  \.   \ 
+1.   0.  4 
+
+    5
+   /	\
+3.     2
+/     /.   \
+4.  0.   1
+
+
+Public Node mirror (Node node){
+       Node temp;
+       temp = node;
+	Stack<Node> routeNodes;
+	Set<Node> uniqueNodes;
+
+      while( temp!=null)
+	{
+		
+		if(temp.left!=null){
+			temp = Node.left;
+			routeNodes.push(temp); 		}
+		else if(temp.right!=null)
+			{
+				temp =  Node.right;
+				routeNodes.push(temp);
+			}
+		else{
+			Node prev = routeNodes.pop()
+			Node tem1 = prev.right;
+			prev.right  = prev.left;
+			prev.left = temp1;
+			temp = routeNodes.pop();
+		}
+
+	}
+Return routeNode;
+}
+
+
+—————————————————————————————————————————————————
+Given String
+
+String s = “abcd”;
+Abcd
+Acbd
+Acdb
+
+[a,b,c,d]
+
+Void permutation(String s, int l, int r)
+{
+	If( l == r)
+		Sysout(str);		
+	else
+	{
+		for(int I=l;i<=r;i++)
+		{
+			str = swap (str, l, I);
+			permutation(str1,l+1;r)
+			str = swap(str, l, i);
+		}
+	}
+}	
+
+String swap(String a, int I, int j)
+{
+
+  	Char temp;
+	Char[] charArray = a.toCharArray();
+	Temp = charrArry[I];
+	charrArry[I] = charArrya[j];
+	charArray[j] = temp;
+
+Return string.value(charArray);
+}
+
+
 
 
 
